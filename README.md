@@ -19,7 +19,7 @@ The main features of TUKRA are:
 
 * Graphical Interface I (accepting inputs from users): This is the starting interface window accepting the input program shown below: 
 
-![alt text](https://github.com/RajuHalder/Tukra/blob/master/Images/gui1_input)
+![alt text](https://github.com/RajuHalder/Tukra/blob/master/Images/gui1_input.jpg)
 
 With this interface, we can browse the input program file, or we can write the source code in the text area provided on the right side of the screen, or we can open nodepad software by clicking on "Open NotePad" button to write and save the program code if it does not exist. On clicking the "Next" button we can go to the next window.
 
