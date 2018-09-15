@@ -1,0 +1,18 @@
+0 st -1:T * * start{ L0
+1 as 0:T i_0 * i_0=-2 L1
+2 as 0:T x_0 * x_0=? L2
+3 as 0:T y_0 * y_0=? L3
+4 as 0:T w_0 * w_0=? L4
+5 if 0:T * x_0 x_0>=0 L5
+6 as 5:T x_1 x_0|w_0 x_1=x_0+w_0 L6
+7 as 5:T y_1 w y_1=4*w*0 L7
+8 pi 0:T i_1 i_0|i_2 i_1<<phi(i_0,i_2) Q0
+9 pi 0:T x_2 x_0|x_1 x_2<<phi(x_0,x_1) Q1
+10 pi 0:T y_2 y_0|y_1 y_2<<phi(y_0,y_1) Q2
+11 wh 0:T * i_1 i_1<=0 L9
+12 as 11:T i_2 i_1 i_2=i_1+1 L11
+13 pr 11:F * x_2|y_2 print(x_2,y_2) L13
+14 sp 11:F * * stop L14
+
+
+

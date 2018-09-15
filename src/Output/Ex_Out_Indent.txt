@@ -1,0 +1,24 @@
+L0:st:0 start{
+L1:as:0 i_0=-2
+L2:as:0 x_0=?
+L3:as:0 y_0=?
+L4:as:0 w_0=?
+L5:if:1 x_0>=0
+L6:as:1 x_1=x_0+w_0
+L7:as:1 y_1=4*w*0
+L8:mid-if:1 }{
+L8:end-if:1 }
+Q0:pi:0 i_1<<phi(i_0,i_2)
+Q1:pi:0 x_2<<phi(x_0,x_1)
+Q2:pi:0 y_2<<phi(y_0,y_1)
+L9:wh:1 i_1<=0
+L11:as:1 i_2=i_1+1
+L12:mid-wh:1 }{
+L13:pr:0 print(x_2,y_2)
+L14:sp:0 stop
+L15:end-wh:1 }
+L15:mid-st:0 }{
+L15:end-st:0 }
+
+
+

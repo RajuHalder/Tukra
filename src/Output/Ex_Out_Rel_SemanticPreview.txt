@@ -1,0 +1,18 @@
+L0:  start{
+L1:   i=-2;
+L2:   x=?;
+L3:   y=?;
+L4:   w=?;
+L5:   if(x>=0){
+L6:    x=x+w;
+L7:    y=4*w*0;
+L8:   End-If
+L9:   while(i<=0){
+L11:   i=i+1;
+L12:  End-While
+L13:  print(x,y);
+L14:  stop;
+L15: End-Start
+
+
+

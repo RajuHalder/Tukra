@@ -1,0 +1,60 @@
+L0 ---> L1 :
+ Reach Sequence:L0 -->(T) L1
+ Avoid Sequence: 
+L0 ---> L2 :
+ Reach Sequence:L0 -->(T) L2
+ Avoid Sequence: 
+L0 ---> L3 :
+ Reach Sequence:L0 -->(T) L3
+ Avoid Sequence: 
+L0 ---> L4 :
+ Reach Sequence:L0 -->(T) L4
+ Avoid Sequence: 
+L0 ---> L5 :
+ Reach Sequence:L0 -->(T) L5
+ Avoid Sequence: 
+L0 ---> Q0 :
+ Reach Sequence:L0 -->(T) Q0
+ Avoid Sequence: 
+L0 ---> Q1 :
+ Reach Sequence:L0 -->(T) Q1
+ Avoid Sequence: 
+L0 ---> Q2 :
+ Reach Sequence:L0 -->(T) Q2
+ Avoid Sequence: 
+L0 ---> L9 :
+ Reach Sequence:L0 -->(T) L9
+ Avoid Sequence: 
+L1 ---> Q0 :
+ Reach Sequence:
+ Avoid Sequence: L0 -->(T) L9 -->(T) L11
+L2 ---> L6 :
+ Reach Sequence:L0 -->(T) L5 -->(T) L6
+ Avoid Sequence: 
+L2 ---> Q1 :
+ Reach Sequence:
+ Avoid Sequence: L0 -->(T) L5 -->(T) L6
+L3 ---> Q2 :
+ Reach Sequence:
+ Avoid Sequence: L0 -->(T) L5 -->(T) L7
+L4 ---> L6 :
+ Reach Sequence:L0 -->(T) L5 -->(T) L6
+ Avoid Sequence: 
+L5 ---> L6 :
+ Reach Sequence:L5 -->(T) L6
+ Avoid Sequence: 
+L5 ---> L7 :
+ Reach Sequence:L5 -->(T) L7
+ Avoid Sequence: 
+Q0 ---> L11 :
+ Reach Sequence:L0 -->(T) L9 -->(T) L11
+ Avoid Sequence: 
+L9 ---> L11 :
+ Reach Sequence:L9 -->(T) L11
+ Avoid Sequence: 
+L9 ---> L13 :
+ Reach Sequence:L9 -->(F) L13
+ Avoid Sequence: 
+L9 ---> L14 :
+ Reach Sequence:L9 -->(F) L14
+ Avoid Sequence: 
