@@ -47,25 +47,25 @@ Below is the information that assists users to run the tool TUKRA.
 
 * System requirements (Recommended):
   ----------------------------------
-- Processor: Pentium or higher
-- Operating system: Microsoft Windows XP or later
-- Memory: 1 GB RAM or higher
-- The Platform: Java 2 Platform, Standard Edition (J2SE)
+ Processor: Pentium or higher
+ Operating system: Microsoft Windows XP or later
+ Memory: 1 GB RAM or higher
+ The Platform: Java 2 Platform, Standard Edition (J2SE)
 
 * How to run Tukra:
   --------------------
-- Step 1: Download the source code (click here to download) and put in a directory “Tool”.
-- Step 2: Open the command prompt and change the current directory to “Tool”.
-- Step 3: Compile the source code “Tukra.java” by issuing the command “javac Tukra.java”
-- Step 4: Run the class file by issuing the command “java Tukra”. 
+ Step 1: Download the source code (click here to download) and put in a directory “Tool”.
+ Step 2: Open the command prompt and change the current directory to “Tool”.
+ Step 3: Compile the source code “Tukra.java” by issuing the command “javac Tukra.java”
+ Step 4: Run the class file by issuing the command “java Tukra”. 
 
-* Limitations on input programs:
+# Limitations on input programs:
   ----------------------------------
 At this preliminary stage of implementation, we do not focus on any specific programming language for input programs. We consider Imperative Programming Languages with the following assumptions on the syntax: 
 - All control blocks should be enclosed with "{ }" irrespective of the number of statements in it.
 - Empty control block must have “skip;” statement in it.
 - Run-time input for any statement is denoted by “?”, e.g. the statement asking input from user for variable “var” is written as “var =?;”. 
--- The syntax of the statement displaying variables’ values is “print(x, y, z);” where x, y, z are the program variables.
+- The syntax of the statement displaying variables’ values is “print(x, y, z);” where x, y, z are the program variables.
 
 > Example: 
 The following example program can also be found in the folder “Input".
@@ -98,7 +98,7 @@ We consider the following three semantic computations:
 Currently, TUKRA provides two abstract domains: SIGN and PAR. The abstract domain SIGN represents the sign property, whereas PAR represents parity property of the variables of interest. 
 
 # References
-* TUKRA: An Abstract Program Slicing Tool. Author's Names. In Proceedings of the 7th International Conference on Software Paradigm Trends (ICSOFT '12), Rome, Italy, 24-27 July 2012. INSTICC Press. (Submitted, Decision Pending)
+* TUKRA: An Abstract Program Slicing Tool. Author's Names. In Proceedings of the 7th International Conference on Software Paradigm Trends (ICSOFT '12), Pages 178-183, Rome, Italy, 24-27 July 2012. SciTePress. 
 
 * Dependence Condition Graph for Semantics-based Abstract Program Slicing. Agostino Cortesi, Raju Halder. In Proceedings of the 10th International Workshop on Language Descriptions Tools and Applications (LDTA '10), satellite event of European Joint Conferences on Theory and Practice of Software (ETAPS '10), Paphos, Cyprus, 27-28 March 2010. ACM Press.
 
