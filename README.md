@@ -72,18 +72,19 @@ At this preliminary stage of implementation, we do not focus on any specific pro
 - The syntax of the statement displaying variables’ values is “print(x, y, z);” where x, y, z are the program variables.
 
 > Example: The following example program can also be found in the folder “Input".\
-> i = -2;
-> x = ?;
-> y = ?;
-> w = ?;
-> if(x>=0){
-> x=x+w;
-> y = 4*w*0;}
-> while(i<=0){
-> y = 2*y;
-> i = i + 1;}
-> print(x,y);
-
+```
+  > i = -2;
+  > x = ?;
+  > y = ?;
+  > w = ?;
+  > if(x>=0){
+      > x=x+w;
+      > y = 4*w*0;}
+  > while(i<=0){
+      > y = 2*y;
+      > i = i + 1;}
+  > print(x,y);
+```
 
 #### On the Types of Semantic Computations:
   
