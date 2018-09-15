@@ -106,10 +106,12 @@ Currently, TUKRA provides two abstract domains: SIGN and PAR. The abstract domai
 
 
 # References
-* TUKRA: An Abstract Program Slicing Tool. Author's Names. In Proceedings of the 7th International Conference on Software Paradigm Trends (ICSOFT '12), Pages 178-183, Rome, Italy, 24-27 July 2012. SciTePress. 
+* TUKRA: An Abstract Program Slicing Tool. Raju Halder and Agostino Cortesi. In Proceedings of the 7th International Conference on Software Paradigm Trends (ICSOFT '12), Pages 178-183, Rome, Italy, 24-27 July 2012. SciTePress. 
 
-* Dependence Condition Graph for Semantics-based Abstract Program Slicing. Agostino Cortesi, Raju Halder. In Proceedings of the 10th International Workshop on Language Descriptions Tools and Applications (LDTA '10), satellite event of European Joint Conferences on Theory and Practice of Software (ETAPS '10), Paphos, Cyprus, 27-28 March 2010. ACM Press.
+<!--- * Dependence Condition Graph for Semantics-based Abstract Program Slicing. Agostino Cortesi  and Raju Halder. In Proceedings of the 10th International Workshop on Language Descriptions Tools and Applications (LDTA '10), satellite event of European Joint Conferences on Theory and Practice of Software (ETAPS '10), Paphos, Cyprus, 27-28 March 2010. ACM Press. --->
 
-* Data dependencies and program slicing: from syntax to abstract semantics. Isabella Mastroeni, Damiano Zanardini. In Proceedings of the ACM SIGPLAN symposium on Partial evaluation and semantics-based program manipulation (PEPM '08), pages 125–134, San Francisco, California, USA. ACM Press.
+* Abstract Program Slicing on Dependence Condition Graph. Raju Halder and Agostino Cortesi. Science of Computer Programming, 78(9): 1240-1263, 2013. Elsevier Ed.
 
-* The dependence condition graph: Precise conditions for dependence between program points. S. Sukumarana, A. Sreenivasb, R. Metta. Computer Languages, Systems & Structures, 36(1):96–121, 2010.
+* Data dependencies and program slicing: from syntax to abstract semantics. Isabella Mastroeni and Damiano Zanardini. In Proceedings of the ACM SIGPLAN symposium on Partial evaluation and semantics-based program manipulation (PEPM '08), pages 125–134, San Francisco, California, USA. ACM Press.
+
+* The dependence condition graph: Precise conditions for dependence between program points. S. Sukumarana, A. Sreenivasb and R. Metta. Computer Languages, Systems & Structures, 36(1):96–121, 2010. Elsevier Ed.
