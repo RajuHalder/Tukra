@@ -60,7 +60,6 @@ Below is the information that assists users to run the tool TUKRA.
  Step 4: Run the class file by issuing the command “java Tukra”. 
 
 # Limitations on input programs:
-  ----------------------------------
 At this preliminary stage of implementation, we do not focus on any specific programming language for input programs. We consider Imperative Programming Languages with the following assumptions on the syntax: 
 - All control blocks should be enclosed with "{ }" irrespective of the number of statements in it.
 - Empty control block must have “skip;” statement in it.
@@ -97,6 +96,9 @@ We consider the following three semantic computations:
   ---------------------
 Currently, TUKRA provides two abstract domains: SIGN and PAR. The abstract domain SIGN represents the sign property, whereas PAR represents parity property of the variables of interest. 
 
+# Contributors
+Developed By: Raju Halder
+Release Date: July 2012
 # References
 * TUKRA: An Abstract Program Slicing Tool. Author's Names. In Proceedings of the 7th International Conference on Software Paradigm Trends (ICSOFT '12), Pages 178-183, Rome, Italy, 24-27 July 2012. SciTePress. 
 
