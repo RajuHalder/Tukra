@@ -45,19 +45,19 @@ The "Refinement" button shows a message with a list of refinement performed base
 
 Below is the information that assists users to run the tool TUKRA. 
 
-* System requirements (Recommended):
+__System requirements (Recommended):__
   ----------------------------------
- Processor: Pentium or higher
- Operating system: Microsoft Windows XP or later
- Memory: 1 GB RAM or higher
- The Platform: Java 2 Platform, Standard Edition (J2SE)
+ * Processor: Pentium or higher
+ * Operating system: Microsoft Windows XP or later
+ * Memory: 1 GB RAM or higher
+ * The Platform: Java 2 Platform, Standard Edition (J2SE)
 
-* How to run Tukra:
+__How to run Tukra:__
   --------------------
- Step 1: Download the source code (click here to download) and put in a directory “Tool”.
- Step 2: Open the command prompt and change the current directory to “Tool”.
- Step 3: Compile the source code “Tukra.java” by issuing the command “javac Tukra.java”
- Step 4: Run the class file by issuing the command “java Tukra”. 
+ * Step 1: Download the source code (click here to download) and put in a directory “Tool”.
+ * Step 2: Open the command prompt and change the current directory to “Tool”.
+ * Step 3: Compile the source code “Tukra.java” by issuing the command “javac Tukra.java”
+ * Step 4: Run the class file by issuing the command “java Tukra”. 
 
 # Limitations on input programs:
 At this preliminary stage of implementation, we do not focus on any specific programming language for input programs. We consider Imperative Programming Languages with the following assumptions on the syntax: 
@@ -81,7 +81,21 @@ y = 2*y;
 i = i + 1;}
 print(x,y);
 
-
+Markup :  `code()`
+    var specificLanguage_code = 
+    {
+        "data": {
+            "lookedUpPlatform": 1,
+            "query": "Kasabian+Test+Transmission",
+            "lookedUpItem": {
+                "name": "Test Transmission",
+                "artist": "Kasabian",
+                "album": "Kasabian",
+                "picture": null,
+                "link": "http://open.spotify.com/track/5jhJur5n4fasblLSCOcrTp"
+            }
+        }
+    }
 
 * Types of Semantic Computations:
   -------------------------------------
