@@ -35,11 +35,11 @@ Observe that when the button "Show PDG" is clicked, the PDG of the program is di
 
 Users can see in the preview area of this interface the refined program where irrelevant statements and/or irrelevant variables in the expressions are disregarded (marked in red color), depending on the options they choose on the previous interface. This interface provides two options: (i) generate CDG or PDG of this refined program and perform slicing on it (upper right part of the screen), and (ii) generate its DCG, refine it into more precise one by computing unrealizable paths based on the satisfiability of DCG annotations against their trace semantics and perform slicing on it (lower right part of the screen). The button "Show DCG" displays the SSA form of the program and the DCG annotations over all the edges of the dependence graph of the program in SSA form as shown in the following figure: 
 
-![alt text](https://github.com/RajuHalder/Tukra/blob/master/Images/gui3_semantic.jpg) 
+![alt text](https://github.com/RajuHalder/Tukra/blob/master/Images/gui4_dcg.jpg) 
 
 The "Refinement" button shows a message with a list of refinement performed based on the DCG annotations. The slicing based on this refined semantics-based abstract DCG can be performed by supplying slicing criterion in the text areas provided on the lower right area of the screen as depicted below: 
 
-![alt text](https://github.com/RajuHalder/Tukra/blob/master/Images/gui4_slice.jpg)  
+![alt text](https://github.com/RajuHalder/Tukra/blob/master/Images/gui5_slice.jpg)  
 
 # How To Run
 
