@@ -103,6 +103,7 @@ Currently, TUKRA provides two abstract domains: SIGN and PAR. The abstract domai
 
 * __Developed By:__ Raju Halder
 * __Release Date:__ July 2012
+* __Contact:__ halder@iitp.ac.in / halder.raju@gmail.com
 
 
 # References
