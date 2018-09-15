@@ -25,7 +25,7 @@ With this interface, we can browse the input program file, or we can write the s
 
 * Graphical Interface II (syntactic slicing and semantic computations): With this interface, users can perform the followings: (i) generating CDG and PDG of the input programs, (ii) performing syntax-based slicing, (iii) choosing the options to perform the type of abstract semantic computations on the input programs. 
 
-![alt text](https://github.com/RajuHalder/Tukra/blob/master/Images/GUI2_syntax.jpg) 
+![alt text](https://github.com/RajuHalder/Tukra/blob/master/Images/gui2_syntax.jpg) 
 
 Observe that when the button "Show PDG" is clicked, the PDG of the program is displayed in a window. Similarly, the "Show CDG" button is used to display the CDG of the input program. When users click on "Slice" button, it asks for slicing criterion: a program point and a list of variables (separated by comma) used/defined at that program point. It then computes and shows the syntactic slice of the input program w.r.t. the given criterion. On the right side of the screen, the tool displays the options for two types of abstract computation: abstract semantic relevancy of statements and abstract semantic data dependence computation, as check-boxes. Users can choose any one or both of them. However, in doing so, users must choose an abstract domain of interest shown as radio buttons (we provided here only two: SIGN and PAR domain, but we can easily add more). The "Go" button moves the tool to the next window.
 
