@@ -19,27 +19,27 @@ The main features of TUKRA are:
 
 * Graphical Interface I (accepting inputs from users): This is the starting interface window accepting the input program shown below: 
 
-gui1_input. 
+![alt text](https://github.com/RajuHalder/Tukra/blob/master/Images/gui1_input)
 
 With this interface, we can browse the input program file, or we can write the source code in the text area provided on the right side of the screen, or we can open nodepad software by clicking on "Open NotePad" button to write and save the program code if it does not exist. On clicking the "Next" button we can go to the next window.
 
 * Graphical Interface II (syntactic slicing and semantic computations): With this interface, users can perform the followings: (i) generating CDG and PDG of the input programs, (ii) performing syntax-based slicing, (iii) choosing the options to perform the type of abstract semantic computations on the input programs. 
 
-GUI2_syntax 
+![alt text](https://github.com/RajuHalder/Tukra/blob/master/Images/GUI2_syntax) 
 
 Observe that when the button "Show PDG" is clicked, the PDG of the program is displayed in a window. Similarly, the "Show CDG" button is used to display the CDG of the input program. When users click on "Slice" button, it asks for slicing criterion: a program point and a list of variables (separated by comma) used/defined at that program point. It then computes and shows the syntactic slice of the input program w.r.t. the given criterion. On the right side of the screen, the tool displays the options for two types of abstract computation: abstract semantic relevancy of statements and abstract semantic data dependence computation, as check-boxes. Users can choose any one or both of them. However, in doing so, users must choose an abstract domain of interest shown as radio buttons (we provided here only two: SIGN and PAR domain, but we can easily add more). The "Go" button moves the tool to the next window.
 
 * Graphical Interface III (semantics-based abstract program slicing): This is a child window displaying over the main window shown below: 
 
-gui3_semantic 
+![alt text](https://github.com/RajuHalder/Tukra/blob/master/Images/gui3_semantic) 
 
 Users can see in the preview area of this interface the refined program where irrelevant statements and/or irrelevant variables in the expressions are disregarded (marked in red color), depending on the options they choose on the previous interface. This interface provides two options: (i) generate CDG or PDG of this refined program and perform slicing on it (upper right part of the screen), and (ii) generate its DCG, refine it into more precise one by computing unrealizable paths based on the satisfiability of DCG annotations against their trace semantics and perform slicing on it (lower right part of the screen). The button "Show DCG" displays the SSA form of the program and the DCG annotations over all the edges of the dependence graph of the program in SSA form as shown in the following figure: 
 
-gui3_semantic 
+![alt text](https://github.com/RajuHalder/Tukra/blob/master/Images/gui3_semantic) 
 
 The "Refinement" button shows a message with a list of refinement performed based on the DCG annotations. The slicing based on this refined semantics-based abstract DCG can be performed by supplying slicing criterion in the text areas provided on the lower right area of the screen as depicted below: 
 
-gui4_slice 
+![alt text](https://github.com/RajuHalder/Tukra/blob/master/Images/gui4_slice)  
 
 # How To Run
 
